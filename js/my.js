@@ -12,12 +12,12 @@ $(document).keydown(function (e) {
     }
 });
 
-// $('[data-open-block]').on('click', function () {
-//     const activeCls = 'active';
+$('[data-open-block]').on('click', function () {
+    const activeCls = 'active';
 
-//     $('[data-content]').removeClass(activeCls);
-//     $(`[data-content="${$(this).data('open-block')}"]`).addClass(activeCls);
-// });
+    $('[data-content]').removeClass(activeCls);
+    $(`[data-content="${$(this).data('open-block')}"]`).addClass(activeCls);
+});
 
 // function changeActiveButton() {
 //     const buttonActive = 'button-active';
