@@ -79,10 +79,10 @@ function srollWindow() {
     }
 }
 
-// $(function () {
-//     $('.asked-title').click(function () {
-//         const $item = $(this).parents('.asked-list');
+$(function () {
+    $('.asked-title').click(function () {
+        const $item = $(this).parents('.asked-list');
 
-//         $item.toggleClass('accordion-item--active').siblings('.accordion-item--active').removeClass('accordion-item--active');
-//     });
-// });
+        $item.toggleClass('accordion-item--active').siblings('.accordion-item--active').removeClass('accordion-item--active');
+    });
+});
