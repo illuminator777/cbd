@@ -46,15 +46,15 @@ new Splide('#splide', {
     }
 }).mount();
 
-// new Splide('#splide-day', {
-//     perPage: 1,
-//     perMove: 1,
-//     type: 'fade',
-//     cover: true,
-//     rewind: true,
-//     pagination: false,
-//     fixedHeight: "44.5rem",
-// }).mount();
+new Splide('#splide-day', {
+    perPage: 1,
+    perMove: 1,
+    type: 'fade',
+    cover: true,
+    rewind: true,
+    pagination: false,
+    fixedHeight: "44.5rem",
+}).mount();
 
 function changeActiveHeaderElement() {
     const line = 'line-header';
@@ -73,7 +73,7 @@ window.onscroll = function () { srollWindow() };
 
 function srollWindow() {
     if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
-        document.getElementById("nav").className = "test";
+        document.getElementById("nav").className = "scroll";
     } else {
         document.getElementById("nav").className = "";
     }

@@ -94,6 +94,7 @@
     /* menu */
 
     .container-menu {
+        min-height: 900px;
         display: block;
         padding: 30px 0 30px 220px;
     }
@@ -135,9 +136,9 @@
     /* asked */
     
     .asked-container {
-        min-height: 35rem;
+        display: block;
+        min-height: 45rem;
         width: 50%;
-        margin: 0 auto;
     }
 
     .container-list {
@@ -158,7 +159,6 @@
     }
 
     .asked-text {
-        letter-spacing: 1px;
         line-height: 40px;
         padding: 20px 40px;
     }

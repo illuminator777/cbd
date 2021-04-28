@@ -41,6 +41,13 @@ a {
     height: 100vh;
 }
 
+.scroll {
+    background-color: rgba(128, 128, 128, 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
 .header {
     position: fixed;
     width: 100%;
@@ -244,7 +251,7 @@ a {
 /* menu */
 
 .container-menu {
-    min-height: 780px;
+    min-height: 700px;
 }
 
 .button-click {
@@ -457,6 +464,15 @@ button:focus {
 
 /* asked */
 
+.asked-container {
+    min-height: 37rem;
+    width: 90%;
+    margin: 3rem auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 .asked-menu {
     border-bottom: 2px solid #eaedde;
 }
@@ -474,6 +490,7 @@ button:focus {
 }
 
 .asked-text {
+    letter-spacing: 1px;
     margin-top: 2rem;
 }
 
@@ -482,6 +499,8 @@ button:focus {
 }
 
 .asked-list {
+    list-style-type: none;
+    border-top: 2px solid #eaedde;
     height: 60px;
     overflow: hidden;
 }
@@ -538,13 +557,6 @@ button:focus {
 
 .name-slide svg {
     padding-right: 1rem;
-}
-
-.test {
-    background-color: rgba(128, 128, 128, 0.5);
-    position: fixed;
-    width: 100%;
-    z-index: 10;
 }
 
 .text-left {
