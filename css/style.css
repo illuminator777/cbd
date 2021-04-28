@@ -181,12 +181,11 @@ a {
 }
 
 .container-line svg {
-    position: absolute;
-    bottom: -15px;
-    left: 50px;
+    display: none;
 }
 
 .line-left {
+    display: none;
     position: absolute;
     bottom: 90px;
     left: 40px;
@@ -409,7 +408,27 @@ button:focus {
 }
 
 .row-front p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+}
+
+.arr-front {
+    display: flex;
+    justify-content: center;
+}
+
+.arr-front svg {
+    stroke: #6e774a;
+    fill: #6e774a;
+    transition-duration: 0s;
+    cursor: pointer;
+}
+
+.arr-front svg:hover {
+    stroke: #add616;
+    fill: #add616;
 }
 
 /* none card */
@@ -506,7 +525,7 @@ button:focus {
 }
 
 .asked-list.accordion-item--active {
-    height: 14rem;
+    height: 15rem;
 }
 
 .accordion-item--active {

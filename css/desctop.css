@@ -43,6 +43,23 @@
         display: none;
     }
 
+    .line-left {
+        display: block;
+        position: absolute;
+        bottom: 90px;
+        left: 40px;
+        transform: rotate(-90deg);
+        transform-origin: left top 0;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+    .container-line svg {
+        display: block;
+        position: absolute;
+        bottom: -15px;
+        left: 50px;
+    }
 
     /* menu */
 
