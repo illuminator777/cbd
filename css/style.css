@@ -593,6 +593,8 @@ button:focus {
     align-items: center;
     justify-content: space-evenly;
     width: 25%;
+    text-transform: uppercase;
+    font-weight: 300;
 }
 
 .col-footer a:hover {
@@ -621,13 +623,13 @@ button:focus {
     text-align: center;
 }
 
-.svg-footer {
+.society-header svg {
     stroke: #6e774a;
     fill: #6e774a;
     transition-duration: .0s;
 }
 
-.svg-footer:hover {
+.society-header svg:hover {
     stroke: #add616;
     fill: #add616;
 }
