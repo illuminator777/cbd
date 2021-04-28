@@ -266,6 +266,14 @@ a {
     padding: 10px 80px;
 }
 
+.content {
+    display: none;
+}
+
+.content.active {
+    display: flex;    
+}
+
 button {
     background: transparent;
     border: none;
@@ -363,7 +371,7 @@ button:focus {
 .row {
     width: 100%;
 }
-
+/* !!!!!!!!!!!!!!!!!!!! */
 .splide-arrows-bottom {
     bottom: -60px !important;
 }
@@ -371,7 +379,7 @@ button:focus {
 .row-front {
     display: flex;
     flex-direction: column;
-    justify-content: space-around   ;
+    justify-content: space-around;
     border: 1px solid #ced6af;
     background-color: white;
     height: 100%;
@@ -397,6 +405,7 @@ button:focus {
     text-align: center;
 }
 
+/* none card */
 .card-bacground {
     background-color: #ededed;
 }
@@ -404,6 +413,7 @@ button:focus {
 .card-bacground img {
     max-width: fit-content;
 }
+/*  */
 
 .row-price {
     display: flex;
@@ -412,8 +422,6 @@ button:focus {
 }
 
 .col-shop {
-    border-left: 1px solid #e1e1e1;
-    border-bottom: 1px solid #e1e1e1;
     display: flex;
     align-items: center;
 }
@@ -424,6 +432,8 @@ button:focus {
 
 .col-price {
     width: 70%;
+    border-left: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
 }
 
 .col-button {
@@ -443,14 +453,6 @@ button:focus {
 
 .button-shop:hover {
     background-color: #8fa832;
-}
-
-.content {
-    display: none;
-}
-
-.content.active {
-    display: flex;    
 }
 
 /* asked */

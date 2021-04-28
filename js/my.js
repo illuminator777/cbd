@@ -28,24 +28,23 @@ $('[data-open-block]').on('click', function () {
 // }
 // $('button').on('click', changeActiveButton);
 
-// new Splide('#splide', {
-//     perPage: 3,
-//     perMove: 1,
-//     type: 'slide',
-//     gap: "20px",
-//     cover: true,
-//     rewind: true,
-//     pagination: false,
-//     breakpoints: {
-//         992: {
-//             perPage: 2,
-//         },
-//         576: {
-//             perPage: 1,
-//         }
-//     }
-
-// }).mount();
+new Splide('#splide', {
+    perPage: 3,
+    perMove: 1,
+    type: 'slide',
+    gap: "20px",
+    cover: true,
+    rewind: true,
+    pagination: false,
+    breakpoints: {
+        992: {
+            perPage: 2,
+        },
+        576: {
+            perPage: 1,
+        }
+    }
+}).mount();
 
 // new Splide('#splide-day', {
 //     perPage: 1,
